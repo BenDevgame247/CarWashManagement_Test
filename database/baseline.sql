@@ -158,6 +158,3 @@ VALUES
 ('Diamond', 20, 5000000, 1.50, 8.00, 21, N'Diamond member'),
 ('Platinum', 35, 15000000, 1.80, 10.00, 30, N'Platinum member'),
 ('VIP', 50, 25000000, 2.00, 15.00, 30, N'VIP member');
-
-SELECT * FROM dbo.Users
-SELECT * FROM dbo.LoyaltyTiers
