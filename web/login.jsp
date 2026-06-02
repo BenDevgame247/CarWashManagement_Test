@@ -36,7 +36,7 @@
                 
                 <div class="mt-2 flex items-center justify-center text-slate-700">
                     <p class="mr-1">Don't have any account?</p>
-                    <a href="" class="text-[#2563EB] hover:text-[#1D4ED8] hover:font-medium">Register</a>
+                    <a href="${pageContext.request.contextPath}/register" class="text-[#2563EB] hover:text-[#1D4ED8] hover:font-medium">Register</a>
                 </div>
             </form>
         </main>
