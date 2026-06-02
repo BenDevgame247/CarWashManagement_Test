@@ -54,7 +54,7 @@ public class Login extends HttpServlet {
         if ("CUSTOMER".equalsIgnoreCase(user.getRole())) {
             request.getRequestDispatcher("/profile").forward(request, response);
         } else if ("ADMIN".equalsIgnoreCase(user.getRole())) {
-            request.getRequestDispatcher("/admin/dashboard").forward(request, response);
+            request.getRequestDispatcher("/profile").forward(request, response);
         } else {
             request.getRequestDispatcher("/").forward(request, response);
         }
